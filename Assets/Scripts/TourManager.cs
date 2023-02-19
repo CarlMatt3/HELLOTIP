@@ -57,7 +57,7 @@ public class TourManager : MonoBehaviour
 
                         if (nextSiteNumber < objSites.Length)
                         {
-                            Vector3 nextSitePosition = objSites[nextSiteNumber].transform.position;
+                            Vector3 nextSitePosition = mainCamera.transform.position + mainCamera.transform.forward * 3.0f; // Change this value to adjust the distance to zoom
                             float duration = 1.0f; // Change this value to adjust the duration of the zoom effect
                             float distance = Vector3.Distance(mainCamera.transform.position, nextSitePosition);
 
@@ -67,7 +67,7 @@ public class TourManager : MonoBehaviour
                                 .OnComplete(() =>
                                 {
                                     LoadSite(nextSiteNumber);
-                                    mainCamera.transform.position = nextSitePosition - mainCamera.transform.forward * distance;
+                                    mainCamera.transform.position = new Vector3(0, 0, 0); // set camera position to (0, 0, 0)
                                 });
                         }
                     }
