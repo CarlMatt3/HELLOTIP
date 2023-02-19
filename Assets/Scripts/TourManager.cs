@@ -1,65 +1,86 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class TourManager : MonoBehaviour
 {
-
-    //site list
-
-    public GameObject[] objSites;
-
-    //mainmenu
-    public GameObject canvasMainMenu;
-    //should the camera move
-    public bool isCameraMove = false;
-
+    public GameObject[] objSites; //site list
+    public GameObject canvasMainMenu; //mainmenu
+    public bool isCameraMove = false; //should the camera move
     public GameObject mainmenuButton;
-    
+
+    private Camera mainCamera;
+
     // Start is called before the first frame update
     void Start()
     {
-         StartMainMenu();
+        StartMainMenu();
+        mainCamera = Camera.main;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(isCameraMove){
-            if(Input.GetKeyDown(KeyCode.Escape) && Input.touchCount == 0){
+        if (isCameraMove)
+        {
+            if (Input.GetKeyDown(KeyCode.Escape) && Input.touchCount == 0)
+            {
                 StartMainMenu();
             }
 
-            if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began){
+            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+            {
                 RaycastHit hit;
 
                 HideMainMenu();
 
                 Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
 
-
-
-                if(Physics.Raycast(ray, out hit, 100.0f)){
-                     if(hit.transform.gameObject.tag == "Sound"){
+                if (Physics.Raycast(ray, out hit, 100.0f))
+                {
+                    if (hit.transform.gameObject.tag == "Sound")
+                    {
                         hit.transform.gameObject.GetComponent<MediaAudio>().PlayAudio();
-                     }
-                     else if(hit.transform.gameObject.tag == "Image"){
+                    }
+                    else if (hit.transform.gameObject.tag == "Image")
+                    {
                         hit.transform.gameObject.GetComponent<MediaImage>().ShowImage();
-                     }
-                     else if(hit.transform.gameObject.tag == "Video"){
+                    }
+                    else if (hit.transform.gameObject.tag == "Video")
+                    {
                         hit.transform.gameObject.GetComponent<MediaVideo>().ShowVideo();
-                     }
-                     else if(hit.transform.gameObject.tag == "NextSite"){
-                        LoadSite(hit.transform.gameObject.GetComponent<NextSite>().GetSiteToLoad());
-                     }
+                    }
+                    else if (hit.transform.gameObject.tag == "NextSite")
+                    {
+                        int nextSiteNumber = hit.transform.gameObject.GetComponent<NextSite>().GetSiteToLoad();
+
+                        if (nextSiteNumber < objSites.Length)
+                        {
+                            Vector3 nextSitePosition = objSites[nextSiteNumber].transform.position;
+                            float duration = 1.0f; // Change this value to adjust the duration of the zoom effect
+                            float distance = Vector3.Distance(mainCamera.transform.position, nextSitePosition) * 6;
+
+                            mainCamera.transform
+                                .DOBlendableLocalMoveBy(Vector3.forward * distance, duration)
+                                .SetEase(Ease.InOutSine)
+                                .OnComplete(() =>
+                                {
+                                    LoadSite(nextSiteNumber);
+                                    mainCamera.transform.position = nextSitePosition - mainCamera.transform.forward * (distance / 6);
+                                });
+                        }
+                    }
                 }
             }
         }
     }
 
-    public void LoadSite(int siteNumber){
+    public void LoadSite(int siteNumber)
+    {
         //hide sites
-        for(int i = 0; i < objSites.Length; i++){
+        for (int i = 0; i < objSites.Length; i++)
+        {
             objSites[i].SetActive(false);
         }
 
@@ -72,33 +93,24 @@ public class TourManager : MonoBehaviour
         // GetComponent<CameraController>().ResetCamera();
     }
 
-    // public void ReturnToMenu(){
-    //     //showmenu
-    //     canvasMainMenu.SetActive(true);
-    //     //hide sites
-    //     for(int i = 0; i < objSites.Length; i++){
-    //         objSites[i].SetActive(false);
-    //     }
-
-    //     isCameraMove = false;
-    // }
-
-    public void StartMainMenu(){
-        
+    public void StartMainMenu()
+    {
         canvasMainMenu.SetActive(true);
-        
         isCameraMove = false;
     }
 
-    public void HideMainMenu(){
+    public void HideMainMenu()
+    {
         canvasMainMenu.SetActive(false);
     }
 
-    public void ReturnToSite(){
+    public void ReturnToSite()
+    {
         isCameraMove = true;
     }
 
-    public void OpenMedia(){
+    public void OpenMedia()
+    {
         isCameraMove = false;
     }
 }
