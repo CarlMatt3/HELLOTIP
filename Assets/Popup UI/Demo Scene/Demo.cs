@@ -6,11 +6,15 @@ public class Demo : MonoBehaviour {
 
    //Buttons
 
-   public void Anim1 () {
-      Popup.Show ("Title", longText) ;
+   public void poi1_inquirytable () {
+      Popup.Show ("TIP Inquiry Table", longText) ;
    }
 
+   public void poi2_statue1 () {
+      Popup.Show ("Statue Name 1", longText) ;
+   }
 
-
-  
+   public void poi3_statue2 () {
+      Popup.Show ("Statue Name 2", longText) ;
+   }
 }
