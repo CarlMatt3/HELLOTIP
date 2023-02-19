@@ -67,7 +67,7 @@ public class TourManager : MonoBehaviour
                                 .OnComplete(() =>
                                 {
                                     LoadSite(nextSiteNumber);
-                                    mainCamera.transform.position = new Vector3(0, 0, 0); // set camera position to (0, 0, 0)
+                                    GetComponent<CameraController>().ResetCamera(); // set camera position to (0, 0, 0)
                                 });
                         }
                     }
