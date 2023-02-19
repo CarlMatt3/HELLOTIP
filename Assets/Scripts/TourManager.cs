@@ -59,7 +59,7 @@ public class TourManager : MonoBehaviour
                         {
                             Vector3 nextSitePosition = objSites[nextSiteNumber].transform.position;
                             float duration = 1.0f; // Change this value to adjust the duration of the zoom effect
-                            float distance = Vector3.Distance(mainCamera.transform.position, nextSitePosition) * 6;
+                            float distance = Vector3.Distance(mainCamera.transform.position, nextSitePosition);
 
                             mainCamera.transform
                                 .DOBlendableLocalMoveBy(Vector3.forward * distance, duration)
@@ -67,7 +67,7 @@ public class TourManager : MonoBehaviour
                                 .OnComplete(() =>
                                 {
                                     LoadSite(nextSiteNumber);
-                                    mainCamera.transform.position = nextSitePosition - mainCamera.transform.forward * (distance / 6);
+                                    mainCamera.transform.position = nextSitePosition - mainCamera.transform.forward * distance;
                                 });
                         }
                     }
