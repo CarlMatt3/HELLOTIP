@@ -33,7 +33,7 @@ public class TourManager : MonoBehaviour
             {
                 RaycastHit hit;
 
-                HideMainMenu();
+               
 
                 Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
 
@@ -99,10 +99,7 @@ public class TourManager : MonoBehaviour
         isCameraMove = false;
     }
 
-    public void HideMainMenu()
-    {
-        canvasMainMenu.SetActive(false);
-    }
+    
 
     public void ReturnToSite()
     {
