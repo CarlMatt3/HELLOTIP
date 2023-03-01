@@ -88,7 +88,7 @@ public class TourManager : MonoBehaviour
         objSites[siteNumber].SetActive(true);
 
         //enable cam
-        isCameraMove = true;
+        // isCameraMove = true;
 
         // GetComponent<CameraController>().ResetCamera();
     }
