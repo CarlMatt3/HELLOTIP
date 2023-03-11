@@ -1,0 +1,1049 @@
+fileFormatVersion: 2
+guid: 4959c1a056064464abe37dac00db922f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3842
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad42c1e6a34f934dbd0b3102524e2c5
+      internalID: 569021244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_1
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 3842
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054b4179919316b46b75ec021177b1b0
+      internalID: 1094606838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_2
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 3842
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc498688ac374974db9bf272c125686e
+      internalID: 732436059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_3
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 3842
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d573488ec7cbecf4ab9e6da27b72ada9
+      internalID: -485424312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_4
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 3842
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abe861a2a988d840b5d0a5e54017b79
+      internalID: -1240792658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3364
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2b34be1dd783240bb944af7279fcf3
+      internalID: 1512779094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_6
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 3364
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8291a9a4e37a13c44a408ac23839705e
+      internalID: 624262353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_7
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 3364
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffbab3c991c2b449b63363071368819
+      internalID: 1893924476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_8
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 3364
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f58c0c15b0f774cb87c75c0146c221
+      internalID: 403115330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_9
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 3364
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cf582e02fe8674f88ed09ac7003386
+      internalID: 282868832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2886
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c8127e99a4ef44593f819ffcdfb212
+      internalID: 2040348189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_11
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 2886
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ade383b921e144f9f2de13f3881196
+      internalID: -1807210060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_12
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 2886
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e015fc8f93001c4bb04093ef03658f7
+      internalID: 1581366559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_13
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 2886
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a252807249794b4b8f3262c43af29b3
+      internalID: -52738244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_14
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 2886
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dd5d435edc553488853d14e1b4026e
+      internalID: 180754403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2408
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1efb51b8829a342907c5ff33eaa8e8
+      internalID: 1377591390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_16
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 2408
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d7765588ab30049ba523bef4f6dbd1
+      internalID: -1844794686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_17
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 2408
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e958ebdec892e694b9e1bb5e20845463
+      internalID: -1931038649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_18
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 2408
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217d45285827e9341892841a860348ac
+      internalID: -1168945070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_19
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 2408
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9a5d06a0e48364a8a4bbd87edb34ff
+      internalID: -1749084633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1930
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888afae86ded2ca42968aafdfe60d159
+      internalID: 1685686219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_21
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1930
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b93e771ec51684a8dde8c59ac5a224
+      internalID: 305147872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_22
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1930
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d255491f9e6c44094c8367aa2d8849
+      internalID: 1850313013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_23
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 1930
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cff96cafba51844dbbb25e0831548e2
+      internalID: 298490872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_24
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 1930
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68ec562f17eff44a9016b66b0028901
+      internalID: -917039703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1452
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d753814ffee0448a4a3ae037f047fd
+      internalID: -194051301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_26
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1452
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8817a923f8ba98145bd4e832490e6d58
+      internalID: 77290274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_27
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1452
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe05c9f177cb43429d3b2d3418c14e1
+      internalID: 1456879141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_28
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 1452
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dd8cff502348b49a9b144fbb23a8b3
+      internalID: 1764262794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_29
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 1452
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9456f25288a4246adf0f56724f3dba
+      internalID: -1606769330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 974
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a94d9626bf3294ba2ddeba0d71d144
+      internalID: 512851993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_31
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 974
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172a00fa00bf6f047ae841827685cdac
+      internalID: 520894017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_32
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 974
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94baf8aa89ea88e4a8a134cc88eaae7e
+      internalID: 1475315951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_33
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 974
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dcff6608d736a48ab9e5f0aacaf4f7
+      internalID: -414076472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_34
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 974
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8ad9fd0cd6b6d408d51cce271a9282
+      internalID: -1591480164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89d7a2c04f2add42b7908c2aad3337a
+      internalID: -492268613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_36
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 496
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d8e9a880377434ba474acdda944365
+      internalID: -702653900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_37
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 496
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b595853d679fa5459ba1a83008f01e3
+      internalID: -169995692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_38
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 496
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4cd14297d44504990cdfcc4867f6d7
+      internalID: 655125453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_39
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 496
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02a25017f0cddf41a2c814ce4dba207
+      internalID: -1225738274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_DirectionalArrow_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 851
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88ca08ad35b10f499a308202936ab37
+      internalID: 1256267952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d1ad838ae67870847b605bd1efa1150b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sprite_DirectionalArrow_35: -492268613
+      Sprite_DirectionalArrow_13: -52738244
+      Sprite_DirectionalArrow_30: 512851993
+      Sprite_DirectionalArrow_0: 569021244
+      Sprite_DirectionalArrow_4: -1240792658
+      Sprite_DirectionalArrow_3: -485424312
+      Sprite_DirectionalArrow_17: -1931038649
+      Sprite_DirectionalArrow_6: 624262353
+      Sprite_DirectionalArrow_12: 1581366559
+      Sprite_DirectionalArrow_21: 305147872
+      Sprite_DirectionalArrow_15: 1377591390
+      Sprite_DirectionalArrow_23: 298490872
+      Sprite_DirectionalArrow_9: 282868832
+      Sprite_DirectionalArrow_29: -1606769330
+      Sprite_DirectionalArrow_11: -1807210060
+      Sprite_DirectionalArrow_10: 2040348189
+      Sprite_DirectionalArrow_18: -1168945070
+      Sprite_DirectionalArrow_37: -169995692
+      Sprite_DirectionalArrow_22: 1850313013
+      Sprite_DirectionalArrow_7: 1893924476
+      Sprite_DirectionalArrow_36: -702653900
+      Sprite_DirectionalArrow_24: -917039703
+      Sprite_DirectionalArrow_14: 180754403
+      Sprite_DirectionalArrow_20: 1685686219
+      Sprite_DirectionalArrow_8: 403115330
+      Sprite_DirectionalArrow_33: -414076472
+      Sprite_DirectionalArrow_19: -1749084633
+      Sprite_DirectionalArrow_28: 1764262794
+      Sprite_DirectionalArrow_26: 77290274
+      Sprite_DirectionalArrow_1: 1094606838
+      Sprite_DirectionalArrow_2: 732436059
+      Sprite_DirectionalArrow_34: -1591480164
+      Sprite_DirectionalArrow_38: 655125453
+      Sprite_DirectionalArrow_5: 1512779094
+      Sprite_DirectionalArrow_16: -1844794686
+      Sprite_DirectionalArrow_40: 1256267952
+      Sprite_DirectionalArrow_31: 520894017
+      Sprite_DirectionalArrow_27: 1456879141
+      Sprite_DirectionalArrow_39: -1225738274
+      Sprite_DirectionalArrow_32: 1475315951
+      Sprite_DirectionalArrow_25: -194051301
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
