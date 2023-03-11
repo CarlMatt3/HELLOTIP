@@ -10353,9 +10353,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1790151600}
-        m_TargetAssemblyTypeName: SettingsSlider, Assembly-CSharp
-        m_MethodName: ShowHideSettings
+      - m_Target: {fileID: 1790151604}
+        m_TargetAssemblyTypeName: SliderMenuAnim, Assembly-CSharp
+        m_MethodName: ShowHideSettingsMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13505,6 +13505,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PanelMenu: {fileID: 287377628}
+  SettingsMenu: {fileID: 1790151598}
   tourManager: {fileID: 0}
 --- !u!95 &287377630
 Animator:
@@ -13583,7 +13584,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 225.30005, y: -5.01001}
+  m_AnchoredPosition: {x: 0, y: -5.01001}
   m_SizeDelta: {x: 225.4, y: 33.8}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!1 &291411463
@@ -35122,7 +35123,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 287377629}
         m_TargetAssemblyTypeName: SliderMenuAnim, Assembly-CSharp
-        m_MethodName: ShowHideMenu
+        m_MethodName: ShowHidePanelMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -70828,7 +70829,7 @@ GameObject:
   - component: {fileID: 1790151603}
   - component: {fileID: 1790151602}
   - component: {fileID: 1790151601}
-  - component: {fileID: 1790151600}
+  - component: {fileID: 1790151604}
   m_Layer: 0
   m_Name: SettingsPanel
   m_TagString: Untagged
@@ -70857,22 +70858,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 302, y: -120.1}
+  m_AnchoredPosition: {x: 302, y: -350}
   m_SizeDelta: {x: 369.1, y: 240.2}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1790151600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790151598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29f2f71e3927589478d4621649841215, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SettingsPanel: {fileID: 1790151598}
 --- !u!95 &1790151601
 Animator:
   serializedVersion: 5
@@ -70931,6 +70919,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790151598}
   m_CullTransparentMesh: 1
+--- !u!114 &1790151604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790151598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f02e7064fc87ddb4ab8499f348c772aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelMenu: {fileID: 287377628}
+  SettingsMenu: {fileID: 1790151598}
+  tourManager: {fileID: 0}
 --- !u!1001 &1792220389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75882,6 +75885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PanelMenu: {fileID: 0}
+  SettingsMenu: {fileID: 0}
   tourManager: {fileID: 0}
 --- !u!114 &1953249099
 MonoBehaviour:

@@ -7,7 +7,7 @@ public class TourManager : MonoBehaviour
 {
     public GameObject[] objSites; //site list
     public GameObject canvasMainMenu; //mainmenu
-    public bool isCameraMove = false; //should the camera move
+    public bool isCameraMove; //should the camera move
     public GameObject mainmenuButton;
 
     private Camera mainCamera;
@@ -15,8 +15,8 @@ public class TourManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartMainMenu();
         mainCamera = Camera.main;
+        isCameraMove = true;
     }
 
     // Update is called once per frame
@@ -24,10 +24,7 @@ public class TourManager : MonoBehaviour
     {
         if (isCameraMove)
         {
-            if (Input.GetKeyDown(KeyCode.Escape) && Input.touchCount == 0)
-            {
-                StartMainMenu();
-            }
+            
 
             if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
             {
@@ -93,11 +90,11 @@ public class TourManager : MonoBehaviour
         // GetComponent<CameraController>().ResetCamera();
     }
 
-    public void StartMainMenu()
-    {
-        canvasMainMenu.SetActive(true);
-        isCameraMove = false;
-    }
+    // public void StartMainMenu()
+    // {
+    //     canvasMainMenu.SetActive(true);
+    //     isCameraMove = false;
+    // }
 
     
 
