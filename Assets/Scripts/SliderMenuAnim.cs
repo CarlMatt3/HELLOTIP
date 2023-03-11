@@ -5,6 +5,7 @@ using UnityEngine;
 public class SliderMenuAnim : MonoBehaviour
 {
     public GameObject PanelMenu;
+    public GameObject SettingsMenu;
     public TourManager tourManager; // reference to the TourManager script
 
     // Assign the TourManager reference
@@ -13,22 +14,36 @@ public class SliderMenuAnim : MonoBehaviour
         tourManager = FindObjectOfType<TourManager>();
     }
 
-    public void ShowHideMenu()
+    // Toggles the PanelMenu
+    public void ShowHidePanelMenu()
     {
-        if (PanelMenu != null)
+        ToggleMenu(PanelMenu);
+    }
+
+    // Toggles the SettingsMenu
+    public void ShowHideSettingsMenu()
+    {
+        ToggleMenu(SettingsMenu);
+    }
+
+    public void ToggleMenu(GameObject menu)
+    {
+        if (menu != null)
         {
-            Animator animator = PanelMenu.GetComponent<Animator>();
+            Animator animator = menu.GetComponent<Animator>();
             if (animator != null)
             {
                 bool isOpen = animator.GetBool("show");
                 animator.SetBool("show", !isOpen);
-                if (!isOpen) // if the menu is being opened
+                bool anyMenuOpen = PanelMenu.GetComponent<Animator>().GetBool("show") || SettingsMenu.GetComponent<Animator>().GetBool("show");
+                Debug.Log(anyMenuOpen);
+                if (!anyMenuOpen)
                 {
-                    tourManager.isCameraMove = true; // set isCameraMove to false
+                    tourManager.isCameraMove = true; // enable camera movement if no menus are open
                 }
-                else // if the menu is being closed
+                else
                 {
-                    tourManager.isCameraMove = false; // set isCameraMove to true
+                    tourManager.isCameraMove = false; // disable camera movement if any menu is open
                 }
             }
         }
