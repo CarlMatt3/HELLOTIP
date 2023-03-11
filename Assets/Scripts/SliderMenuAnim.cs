@@ -28,6 +28,8 @@ public class SliderMenuAnim : MonoBehaviour
 
     public void ToggleMenu(GameObject menu)
     {
+        tourManager.isCameraMove = false;
+        
         if (menu != null)
         {
             Animator animator = menu.GetComponent<Animator>();
@@ -36,7 +38,7 @@ public class SliderMenuAnim : MonoBehaviour
                 bool isOpen = animator.GetBool("show");
                 animator.SetBool("show", !isOpen);
                 bool anyMenuOpen = PanelMenu.GetComponent<Animator>().GetBool("show") || SettingsMenu.GetComponent<Animator>().GetBool("show");
-                Debug.Log(anyMenuOpen);
+                
                 if (!anyMenuOpen)
                 {
                     tourManager.isCameraMove = true; // enable camera movement if no menus are open

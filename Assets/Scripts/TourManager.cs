@@ -19,6 +19,8 @@ public class TourManager : MonoBehaviour
         isCameraMove = true;
     }
 
+    
+
     // Update is called once per frame
     void Update()
     {
