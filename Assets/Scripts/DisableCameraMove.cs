@@ -6,6 +6,7 @@ public class DisableCameraMove : MonoBehaviour
 {
     public GameObject MapCanvas;
     public GameObject InstructionCanvas;
+    public GameObject FaqCanvas;
     private TourManager tourManager;
 
     // Assign the TourManager reference
@@ -24,6 +25,11 @@ public class DisableCameraMove : MonoBehaviour
         ToggleMenu(MapCanvas);
     }
 
+    public void ShowHideFaqCanvas()
+    {
+        ToggleMenu(FaqCanvas);
+    }
+
     // Start is called before the first frame update
     public void ToggleMenu(GameObject menu)
     {
@@ -31,7 +37,7 @@ public class DisableCameraMove : MonoBehaviour
         menu.SetActive(!menuActive);
         Debug.Log(menuActive);
 
-        if (menu == MapCanvas || InstructionCanvas) {
+        if (menu == MapCanvas || InstructionCanvas || FaqCanvas) {
             tourManager.isCameraMove = menuActive;
         }
     }
