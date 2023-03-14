@@ -13,6 +13,7 @@ public class DisableCameraMove : MonoBehaviour
     public void Start()
     {
         tourManager = FindObjectOfType<TourManager>();
+        tourManager.isCameraMove = false;
     }
 
     public void ShowHideInstructionCanvas()
@@ -34,11 +35,11 @@ public class DisableCameraMove : MonoBehaviour
     public void ToggleMenu(GameObject menu)
     {
         bool menuActive = menu.activeSelf;
-        menu.SetActive(!menuActive);
-        Debug.Log(menuActive);
+    menu.SetActive(!menuActive);
 
-        if (menu == MapCanvas || InstructionCanvas || FaqCanvas) {
-            tourManager.isCameraMove = menuActive;
-        }
+    if ((menu == MapCanvas) || (menu == InstructionCanvas) || (menu == FaqCanvas))
+    {
+        tourManager.isCameraMove = menuActive;
+    }
     }
 }
