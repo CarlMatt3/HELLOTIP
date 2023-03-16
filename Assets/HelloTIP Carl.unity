@@ -1843,7 +1843,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_SizeDelta: {x: 370, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &36525513
 MonoBehaviour:
@@ -1972,7 +1972,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36912263}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000023949}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1981,8 +1981,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000076293945, y: -11.5}
-  m_SizeDelta: {x: -10.038, y: -25.6}
+  m_AnchoredPosition: {x: -0.6000061, y: -9.700001}
+  m_SizeDelta: {x: -18.2, y: -29.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &36912265
 MonoBehaviour:
@@ -2033,13 +2033,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 9.5
-  m_fontSizeBase: 9.5
+  m_fontSize: 11
+  m_fontSizeBase: 11
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2122,7 +2122,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_SizeDelta: {x: 223.9, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &39948769
 MonoBehaviour:
@@ -3881,7 +3881,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72868230}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000000059403}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3890,8 +3890,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00012207031, y: -11}
-  m_SizeDelta: {x: -10.038, y: -24.6}
+  m_AnchoredPosition: {x: -0.6000061, y: -11}
+  m_SizeDelta: {x: -18.2, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &72868232
 MonoBehaviour:
@@ -3913,7 +3913,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: When will the start of College classes be for the school year 2022-2023?
+  m_text: What happens if I fail to complete a course within the specified 6-week
+    period in modular delivery?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -3941,13 +3942,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -4578,8 +4579,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -47.605}
+  m_SizeDelta: {x: 186.67, y: 95.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &95649560
 MonoBehaviour:
@@ -4601,14 +4602,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "<u><b>HOW MUCH IS THE TOTAL SCHOOL FEES (TUITION AND MISCELLANEOUS FEES)\r</u></b>\n\r\nTotal
+    school fees ranges from PHP39,000 to PHP50,000\r\n\r\n(For all programs and levels;
+    new or current student)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -4636,13 +4632,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -4712,7 +4708,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 102702499}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4721,8 +4717,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -11}
-  m_SizeDelta: {x: 0, y: -24.6}
+  m_AnchoredPosition: {x: -0.6000061, y: -11}
+  m_SizeDelta: {x: -17.6, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &102702501
 MonoBehaviour:
@@ -4778,7 +4774,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -6332,8 +6328,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_AnchoredPosition: {x: 0.0012369, y: -19.3}
+  m_SizeDelta: {x: 223.9, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &141245109
 MonoBehaviour:
@@ -7233,8 +7229,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_AnchoredPosition: {x: 0.0012369, y: -21.72}
+  m_SizeDelta: {x: 223.9, y: 83.56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &156338654
 MonoBehaviour:
@@ -9648,7 +9644,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214774787}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 0.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9658,8 +9654,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: -0.1, y: -130.82008}
+  m_SizeDelta: {x: 186.67, y: 345.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &214774789
 MonoBehaviour:
@@ -9688,8 +9684,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -10144,7 +10140,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_SizeDelta: {x: 223.9, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &224648164
 MonoBehaviour:
@@ -10974,7 +10970,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241176867}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 0.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10984,8 +10980,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: -0.4, y: -18.605}
+  m_SizeDelta: {x: 186.67, y: 117.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &241176869
 MonoBehaviour:
@@ -11015,7 +11011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding:
     m_Left: 5
-    m_Right: 5
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -12280,7 +12276,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267231888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0000052413}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12289,8 +12285,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0000076293945, y: -11}
-  m_SizeDelta: {x: -10.037, y: -24.6}
+  m_AnchoredPosition: {x: -0.6000061, y: -11}
+  m_SizeDelta: {x: -18.2, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &267231890
 MonoBehaviour:
@@ -12312,7 +12308,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What is the purpose of this application?
+  m_text: What if I encounter problem during online enrollment?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -12346,7 +12342,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -14038,7 +14034,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298470599}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.11}
   m_LocalScale: {x: 0.4873499, y: 0.48735005, z: 0.4873499}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14047,8 +14043,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_AnchoredPosition: {x: -0.2, y: 44.134735}
+  m_SizeDelta: {x: 370, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &298470601
 MonoBehaviour:
@@ -14369,7 +14365,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309853717}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14379,8 +14375,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: 0.8, y: -90.60079}
+  m_SizeDelta: {x: 186.67, y: 261.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &309853719
 MonoBehaviour:
@@ -14409,8 +14405,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -14866,8 +14862,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -772.4501}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -910}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &328539759
 MonoBehaviour:
@@ -15001,8 +14997,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -1282.7501}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -1512}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &329001350
 MonoBehaviour:
@@ -15058,7 +15054,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &329001351
 MonoBehaviour:
@@ -15318,7 +15314,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333764596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0000052413}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15327,8 +15323,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0000076293945, y: -11}
-  m_SizeDelta: {x: -10.037, y: -24.6}
+  m_AnchoredPosition: {x: -0.6000061, y: -11}
+  m_SizeDelta: {x: -18.2, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &333764598
 MonoBehaviour:
@@ -15350,7 +15346,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What is the purpose of this application?
+  m_text: What is the duration of each modular group?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -15384,7 +15380,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -16307,7 +16303,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zoomSpeed: 0.1
   maxZoom: 10
-  touchSensitivity: 1
 --- !u!114 &350570807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16714,8 +16709,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -407.95}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -480}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &370250596
 MonoBehaviour:
@@ -17156,8 +17151,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -27.6}
+  m_SizeDelta: {x: 186.67, y: 35.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &374969296
 MonoBehaviour:
@@ -17179,14 +17174,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: '<u><b>START OF SCHOOL YEAR 2022-2023</u></b>
+
+    Start of College classes
+    will be on Monday, August 15, 2022'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -17214,13 +17205,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -18032,7 +18023,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_SizeDelta: {x: 223.9, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &397020303
 MonoBehaviour:
@@ -18474,8 +18465,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -335.05002}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -394}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &413349492
 MonoBehaviour:
@@ -18629,6 +18620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PanelMenu: {fileID: 660759473}
   SettingsMenu: {fileID: 413599933}
+  TelevisionMenu: {fileID: 0}
   tourManager: {fileID: 0}
 --- !u!95 &413599936
 Animator:
@@ -18991,6 +18983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PanelMenu: {fileID: 0}
   SettingsMenu: {fileID: 0}
+  TelevisionMenu: {fileID: 0}
   tourManager: {fileID: 0}
 --- !u!114 &425233961
 MonoBehaviour:
@@ -19807,7 +19800,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 446714709}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000065178}
+  m_LocalPosition: {x: 0, y: 0, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19834,8 +19827,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.055008, y: 133}
-  m_SizeDelta: {x: 257.13, y: 1326.2002}
+  m_AnchoredPosition: {x: 8, y: -603.3003}
+  m_SizeDelta: {x: 386.5, y: 1562}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &446714711
 MonoBehaviour:
@@ -20088,8 +20081,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -125.6}
+  m_SizeDelta: {x: 186.67, y: 251.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &453468023
 MonoBehaviour:
@@ -20111,14 +20104,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "<b><u>ONLINE ENROLLMENT PROCESS FOR CONTINUING (including previous transferees)
+    T.I.P. COLLEGE STUDENTS\r</b></u>\n\r\nSTEP 1 - Log in to your EmpowerED ARIS
+    student portal\r\nQC: <link><u><color=yellow>https://webqc2.tip.edu.ph/portal/student/new/public/login.php</color></u></link>MLA:
+    <link><u><color=yellow>https://webmla2.tip.edu.ph/portal/student/new/public/login.php</color></u></link>\r\nSTEP
+    2 - Select your block section/ free section. Students with exceptions and/or
+    enrollment violations may ask for a validation or advise from their Program Chair
+    or Academic Adviser via the T.I.P. Connect (T.I.P. Virtual Offices) -- <link><u><color=yellow>http://bit.ly/TIPConnect.\r</color></u></link>\nSTEP
+    3 - Save the transaction.\r\nSTEP 4 - Print the pre-enrollment form.\r\nSTEP
+    5 - Pay fees via Dragonpay, Payapp, BDO, or Landbank online banking."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -20146,13 +20140,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -20428,8 +20422,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -918.2501}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -1082}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &467119169
 MonoBehaviour:
@@ -21497,8 +21491,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -43.45}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -50}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &491768391
 MonoBehaviour:
@@ -21867,7 +21861,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_SizeDelta: {x: 223.9, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &506618684
 MonoBehaviour:
@@ -22882,7 +22876,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529162287}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22891,8 +22885,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.5999985, y: -11}
-  m_SizeDelta: {x: -68.4, y: -24.6}
+  m_AnchoredPosition: {x: -2.199997, y: -11}
+  m_SizeDelta: {x: -75.2, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &529162289
 MonoBehaviour:
@@ -22914,7 +22908,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: How can I contact T.I.P. if I have further inquiries?
+  m_text: Can students enroll in courses in modules 2 and 3 only?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -22948,7 +22942,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -23440,8 +23434,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -553.75}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -652}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &550675162
 MonoBehaviour:
@@ -24111,8 +24105,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -77.6}
+  m_SizeDelta: {x: 186.67, y: 155.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &572698120
 MonoBehaviour:
@@ -24134,14 +24128,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "<b><u>HOW TO REGISTER TO OSGT\r</b></u>\n\r\nOnce officially enrolled
+    in T.I.P., students shall be provided with a T.I.P. email account. Through the
+    email, they will be able to access the FREE ONLINE STUDY GROUP TUTORIALS (OSGT)
+    in Math Enhancement and English Enhancement.\r\n\r\nRegister online by clicking
+    the link <link><u><color=yellowhttps://bit.ly/TIP_OSGT</color></u></link>. The
+    registration and the actual Online Study Group Tutorials (OSGT) are all for FREE!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -24169,13 +24161,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -24570,7 +24562,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574562656}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0000052413}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24579,8 +24571,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0000076293945, y: -11}
-  m_SizeDelta: {x: -10.037, y: -24.6}
+  m_AnchoredPosition: {x: 0.6000061, y: -11}
+  m_SizeDelta: {x: -18.3, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &574562658
 MonoBehaviour:
@@ -24602,8 +24594,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What happens if I fail to complete a course within the specified 6-week
-    period in modular delivery?
+  m_text: How to join OSGT classes?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -24631,13 +24622,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 9
-  m_fontSizeBase: 9
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -25599,7 +25590,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 598121005}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25609,8 +25600,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: 0.8, y: -37.039993}
+  m_SizeDelta: {x: 186.67, y: 285.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &598121007
 MonoBehaviour:
@@ -25639,8 +25630,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -25690,8 +25681,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -1064.05}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -1254}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &603238002
 MonoBehaviour:
@@ -27873,6 +27864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PanelMenu: {fileID: 660759473}
   SettingsMenu: {fileID: 413599933}
+  TelevisionMenu: {fileID: 0}
   tourManager: {fileID: 0}
 --- !u!95 &660759475
 Animator:
@@ -29129,7 +29121,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_SizeDelta: {x: 223.9, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &692433448
 MonoBehaviour:
@@ -29699,7 +29691,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_SizeDelta: {x: 223.9, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &705286344
 MonoBehaviour:
@@ -29818,8 +29810,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -29.6}
+  m_SizeDelta: {x: 186.67, y: 59.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &706245268
 MonoBehaviour:
@@ -29841,14 +29833,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "HOW TO JOIN OSGT CLASSES\r\n\r\nOnce enrolled in the OSGT, students may
+    start using the \u201CDiscussion\u201D feature of the Canvas LMS."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -29876,13 +29862,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -30834,7 +30820,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729803713}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.75}
   m_LocalScale: {x: 0.4873499, y: 0.48735005, z: 0.4873499}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30843,8 +30829,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_AnchoredPosition: {x: -4.24, y: 44.134735}
+  m_SizeDelta: {x: 371.49, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &729803715
 MonoBehaviour:
@@ -31263,7 +31249,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_SizeDelta: {x: 370, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732626810
 MonoBehaviour:
@@ -31583,7 +31569,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736696820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1.9099e-11}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31592,8 +31578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000015258789, y: -9}
-  m_SizeDelta: {x: -10, y: -20.7}
+  m_AnchoredPosition: {x: 0.6000061, y: -9}
+  m_SizeDelta: {x: -20.6, y: -20.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &736696822
 MonoBehaviour:
@@ -31643,13 +31629,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -31963,7 +31949,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751340118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31972,8 +31958,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -149.6}
+  m_SizeDelta: {x: 186.67, y: 299.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &751340120
 MonoBehaviour:
@@ -31995,14 +31981,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "<b> T.I.P. shall be offering two (2) teaching and learning modalities
+    for college students for 1st Semester SY 2022-2023: </b>\n<b> \\n\u2022 Fully
+    online  </b>\n-for all non-professional and non-board courses\r\n-students will
+    attend their online classes remotely via the Canvas Learning Management System
+    (LMS), the official online learning platform of T.I.P. \n<b> \\n\u2022 Hyflex
+    \r</b>\n-for critical board courses and professional laboratory courses requiring
+    specialized laboratory facilities\r\n-students will attend classes onsite, but
+    with an exception for students with valid reasons to attend classes remotely\n\nStudents
+    attending hyflex classes must be fully vaccinated.\r\nThe modular delivery of
+    college courses shall continue to be implemented for 1st Semester SY 2022-2023."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -32030,13 +32018,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -32680,7 +32668,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758926443}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -32690,8 +32678,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: 2, y: -72.60004}
+  m_SizeDelta: {x: 186.67, y: 225.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &758926445
 MonoBehaviour:
@@ -32720,8 +32708,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -34313,7 +34301,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_SizeDelta: {x: 223.9, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &801823509
 MonoBehaviour:
@@ -34825,7 +34813,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_SizeDelta: {x: 370, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &817755931
 MonoBehaviour:
@@ -35858,7 +35846,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 841983453}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3.400013}
+  m_LocalPosition: {x: 0, y: 0, z: -0.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35867,7 +35855,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 130.5, y: -27}
+  m_AnchoredPosition: {x: 60.099976, y: -31.900024}
   m_SizeDelta: {x: 241, y: 34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &841983455
@@ -36092,7 +36080,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844285472}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 1.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -36102,8 +36090,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: 5.6, y: 0.0000016481044}
+  m_SizeDelta: {x: 186.67, y: 39.010002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &844285474
 MonoBehaviour:
@@ -36132,8 +36120,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -36405,7 +36393,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846231479}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -36415,8 +36403,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: 0.8, y: -18.605028}
+  m_SizeDelta: {x: 186.67, y: 117.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &846231481
 MonoBehaviour:
@@ -36445,8 +36433,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -36590,7 +36578,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 847719537}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 0.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -36600,8 +36588,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: 1.4, y: -109.04005}
+  m_SizeDelta: {x: 186.67, y: 309.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &847719539
 MonoBehaviour:
@@ -36630,8 +36618,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -38070,7 +38058,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 868800878}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -38080,8 +38068,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: 0.8, y: 0.34849972}
+  m_SizeDelta: {x: 186.67, y: 189.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &868800880
 MonoBehaviour:
@@ -38886,8 +38874,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -14.505}
+  m_SizeDelta: {x: 186.67, y: 29.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &883417584
 MonoBehaviour:
@@ -38909,14 +38897,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: Visit T.I.P.'s academic calendar SY 2022-2023
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -38944,13 +38925,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -40872,7 +40853,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918803832}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 0.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -40882,8 +40863,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: -0.35, y: -0.000059388127}
+  m_SizeDelta: {x: 205.05, y: 129.20999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &918803834
 MonoBehaviour:
@@ -40912,8 +40893,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -43137,7 +43118,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_SizeDelta: {x: 370, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &966403997
 MonoBehaviour:
@@ -43422,7 +43403,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_SizeDelta: {x: 223.9, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &968322148
 MonoBehaviour:
@@ -44827,7 +44808,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_SizeDelta: {x: 223.9, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &988556502
 MonoBehaviour:
@@ -45342,7 +45323,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_SizeDelta: {x: 370, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1001833792
 MonoBehaviour:
@@ -45392,7 +45373,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 19.45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -46150,7 +46131,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028854383}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.24}
   m_LocalScale: {x: 0.4873499, y: 0.48735005, z: 0.4873499}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46159,8 +46140,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_AnchoredPosition: {x: -0.95, y: 44.134735}
+  m_SizeDelta: {x: 348.86, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1028854385
 MonoBehaviour:
@@ -46684,8 +46665,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -699.55005}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -824}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1036126722
 MonoBehaviour:
@@ -48379,8 +48360,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -1136.9501}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -1340}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075197304
 MonoBehaviour:
@@ -48600,7 +48581,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077299716}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -48610,8 +48591,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: -0.4, y: 0.000010672989}
+  m_SizeDelta: {x: 186.67, y: 45.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1077299718
 MonoBehaviour:
@@ -48640,10 +48621,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
-    m_Top: 0
-    m_Bottom: 10
+    m_Left: 0
+    m_Right: 0
+    m_Top: 10
+    m_Bottom: 0
   m_ChildAlignment: 0
   m_Spacing: 6
   m_ChildForceExpandWidth: 1
@@ -51005,7 +50986,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_SizeDelta: {x: 370, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1129314831
 MonoBehaviour:
@@ -51336,7 +51317,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_SizeDelta: {x: 370, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1141462167
 MonoBehaviour:
@@ -51714,8 +51695,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -626.65}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -738}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1145444394
 MonoBehaviour:
@@ -52168,7 +52149,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_SizeDelta: {x: 223.9, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1161252131
 MonoBehaviour:
@@ -52278,7 +52259,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161255902}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 1.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -52288,8 +52269,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: 3.5, y: -90.60007}
+  m_SizeDelta: {x: 186.67, y: 261.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1161255904
 MonoBehaviour:
@@ -52318,8 +52299,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -52357,7 +52338,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1166000728}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 0.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -52367,8 +52348,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: 0.2, y: -0.0005524771}
+  m_SizeDelta: {x: 186.67, y: 69.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1166000730
 MonoBehaviour:
@@ -52397,8 +52378,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -52436,7 +52417,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167930364}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.78}
   m_LocalScale: {x: 0.4873499, y: 0.48735005, z: 0.4873499}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -52445,8 +52426,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_AnchoredPosition: {x: -4.39, y: 44.134735}
+  m_SizeDelta: {x: 380.91, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1167930366
 MonoBehaviour:
@@ -52576,7 +52557,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168400456}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 6.855709}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.24201299, y: 1.2666321, z: 0.89928657}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -52586,7 +52567,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 251.45416, y: -5.4436646}
+  m_AnchoredPosition: {x: 486.3, y: -30}
   m_SizeDelta: {x: 209.93, y: 34.14}
   m_Pivot: {x: 0.50000006, y: 0.49999994}
 --- !u!114 &1168400458
@@ -52721,7 +52702,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169359257}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 1.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -52731,8 +52712,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: 0.8, y: -0.02018032}
+  m_SizeDelta: {x: 186.67, y: 105.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1169359259
 MonoBehaviour:
@@ -52761,8 +52742,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -53148,7 +53129,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179291044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53157,8 +53138,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -125.6}
+  m_SizeDelta: {x: 186.67, y: 251.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1179291046
 MonoBehaviour:
@@ -53180,14 +53161,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "<u><b>TUITION FEES\r</u></b>\n\\n\u2022 FAILURE TO TAKE ONE MODULAR GROUP\r\nAll
+    officially enrolled courses in modular groups 1, 2, or 3 should be taken as scheduled.
+    Otherwise, failure of the student to complete a course within the specified 6-week
+    period shall be treated as DROPPED, thus, the T.I.P. rule on cancellation of
+    enrollment/withdrawal/discontinuance of studies shall apply.\r\n\\n\u2022 DROPPING
+    OUT IN THE MIDDLE OF MODULAR GROUP 2\r\nThe Rules on cancellation of enrollment/withdrawal/discontinuance
+    of studies shall apply to students who enrolled but drop at the middle of the
+    semester. That means, all the total fees for all enrolled courses should be paid
+    whether the student attended classes or not."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -53215,13 +53197,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -53525,7 +53507,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189817902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53534,8 +53516,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 102.525, y: -59.605}
+  m_SizeDelta: {x: 205.05, y: 119.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1189817904
 MonoBehaviour:
@@ -53557,14 +53539,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "<b>If you have other inquiries that have not been covered, you can reach
+    us through:\r</b>\n\r\nFOR INCOMING T.I.P. COLLEGE STUDENTS: <link><u><color=yellow>mailto:admissions.qc@tip.edu.ph</color></u></link>
+    (T.I.P. Quezon City) or <link><u><color=yellow>mailto:admissions.manila@tip.edu.ph</color></u></link>
+    (T.I.P. Manila)\r\n\r\nFOR CURRENT T.I.P. COLLEGE STUDENTS: <link><u><color=yellow>info@tip.edu.ph</color></u></link>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -53592,13 +53570,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -55734,7 +55712,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_SizeDelta: {x: 370, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1258715249
 MonoBehaviour:
@@ -55784,7 +55762,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
+  m_fontSize: 28.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -56058,7 +56036,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_SizeDelta: {x: 223.9, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1268847177
 MonoBehaviour:
@@ -56181,7 +56159,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_SizeDelta: {x: 223.9, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1269359874
 MonoBehaviour:
@@ -57729,8 +57707,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -480.85}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -566}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298143164
 MonoBehaviour:
@@ -57940,7 +57918,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1302531933}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 0.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -57950,8 +57928,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: 0.2, y: -0.0005524771}
+  m_SizeDelta: {x: 186.67, y: 93.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1302531935
 MonoBehaviour:
@@ -57980,8 +57958,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -59101,8 +59079,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 95.835, y: -53.605}
+  m_SizeDelta: {x: 181.67, y: 107.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1337788576
 MonoBehaviour:
@@ -59124,14 +59102,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "<u><b>ENROLLING IN COURSES IN MODULES 2 OR 3 ONLY\r</u></b>\nA student
+    may opt to enroll courses belonging to modular group 2 (to be taken during the
+    7th week up to the 12th week) and Group 3 (to be taken during the 13th week up
+    to the 18th week). However, the courses should still be enrolled during the enrollment
+    period."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -59159,13 +59134,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -59963,7 +59938,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1365162654}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 0.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -59973,8 +59948,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: -0.2, y: 45.76552}
+  m_SizeDelta: {x: 186.67, y: 177.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1365162656
 MonoBehaviour:
@@ -60003,8 +59978,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -60953,8 +60928,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -41.605}
+  m_SizeDelta: {x: 186.67, y: 83.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1376334371
 MonoBehaviour:
@@ -60976,14 +60951,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "<u><b>PROBLEMS ENCOUNTERED DURING ONLINE ENROLLMENT\r</u></b>\n\r\nYou
+    may send your concerns regarding technical difficulties during online enrollment
+    to <link><u><color=yellow>mailto:concerns@tip.edu.ph</color></u></link> or to
+    <link><u><color=yellow>https://tip.jitbit.com/helpdesk/Tickets/New</color></u></link>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -61011,13 +60982,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -61087,7 +61058,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379439357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0000052413}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -61096,8 +61067,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0000076293945, y: -11}
-  m_SizeDelta: {x: -10.037, y: -24.6}
+  m_AnchoredPosition: {x: -0.6000061, y: -11}
+  m_SizeDelta: {x: -18.2, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1379439359
 MonoBehaviour:
@@ -61119,7 +61090,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What if I can't complete a course within the 6-week period in modular delivery?
+  m_text: What is the enrollment procedure for modular delivery of classes?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -61147,13 +61118,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11
-  m_fontSizeBase: 11
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -62063,8 +62034,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_AnchoredPosition: {x: 0.0012369, y: -20.66}
+  m_SizeDelta: {x: 223.9, y: 85.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1400654023
 MonoBehaviour:
@@ -63199,7 +63170,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411475890}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.00001408}
+  m_LocalPosition: {x: 0, y: 0, z: 0.3}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -63208,8 +63179,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.300003, y: -9.649998}
-  m_SizeDelta: {x: -4.6, y: -19.3}
+  m_AnchoredPosition: {x: -0.5, y: -7.799999}
+  m_SizeDelta: {x: -19.9, y: -22.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1411475892
 MonoBehaviour:
@@ -63259,13 +63230,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -63836,7 +63807,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424963056}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000039309}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -63845,8 +63816,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00000023842, y: -11}
-  m_SizeDelta: {x: -10.037, y: -24.6}
+  m_AnchoredPosition: {x: 0.6000061, y: -11}
+  m_SizeDelta: {x: -18.3, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1424963058
 MonoBehaviour:
@@ -63868,10 +63839,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'What is the enrollment procedure for modular delivery of classes? Can
-    students enroll in courses in modules 2 and 3 only?
-
-'
+  m_text: How to register to ONLINE STUDY GROUP TUTORIALS (OSGT)?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -63899,13 +63867,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 9
-  m_fontSizeBase: 9
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -64415,8 +64383,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -53.605}
+  m_SizeDelta: {x: 186.67, y: 107.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1433685612
 MonoBehaviour:
@@ -64438,14 +64406,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "<b><u>TUITION AID AVAILABLE</u><\n\nBUKAS\r</b>\nCollege and graduate
+    program students can get up to 100% of their tuition covered, payable within
+    12 months via Bukas Tuition Installment Plan. Enroll now for SY 21-22 and apply
+    online at <link><u><color=yellow>bukas.ph/s/Z36l</color></u></link> and get guaranteed
+    tuition coverage in 3-5 business days."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -64473,13 +64438,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -64550,7 +64515,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438080205}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 0.8168383, y: 0.81683874, z: 0.8168383}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -64562,8 +64527,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -5, y: -4.5700073}
-  m_SizeDelta: {x: -539, y: 17.68}
+  m_AnchoredPosition: {x: 5, y: -2}
+  m_SizeDelta: {x: -273.5, y: 15.199994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1438080207
 MonoBehaviour:
@@ -65293,7 +65258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.8627451}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.9019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -65492,8 +65457,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -116.350006}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -136}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1455045213
 MonoBehaviour:
@@ -67881,8 +67846,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -137.6}
+  m_SizeDelta: {x: 186.67, y: 275.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1502058498
 MonoBehaviour:
@@ -67904,14 +67869,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "<u><b>ENROLLMENT PROCEDURE IF STUDENT FAILED TO ENROLL IN THE PREVIOUS
+    SEMESTER\r</u></b>\n\r\nSTEP 1 - Completely fill out the online Re-Admission
+    form.\r\nQC: <link><u><color=yellow>bit.ly/TIPQCReadmission\r</color></u></link>\nMANILA:
+    <link><u><color=yellow>bit.ly/TIPMLAReadmission\r</color></u></link>\nSTEP 2
+    - T.I.P. shall clear your pending liabilities. Once cleared, you shall receive
+    an email to proceed with the enrollment process.\r\nSTEP 3 - Log in to your EmpowerED
+    ARIS student portal\r\nQC: <link><u><color=yellow>https://webqc2.tip.edu.ph/portal/student/new/public/login.php</color></u></link>\r\nMLA:
+    <link><u><color=yellow>https://webmla2.tip.edu.ph/portal/student/new/public/login.php\r</color></u></link>\nSTEP
+    4 - Select block or free section\r\nSTEP 5 - Save the transaction.\r\nSTEP 6
+    - Print the pre-enrollment form\r\nSTEP 7 - Pay fees via Dragonpay, Payapp, BDO,
+    or Landbank online banking."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -67939,13 +67907,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -68816,7 +68784,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526832093}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -68825,8 +68793,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -11}
-  m_SizeDelta: {x: 0, y: -24.6}
+  m_AnchoredPosition: {x: 0.6000061, y: -11}
+  m_SizeDelta: {x: -20, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1526832095
 MonoBehaviour:
@@ -68877,13 +68845,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 9.5
-  m_fontSizeBase: 9.5
+  m_fontSize: 11
+  m_fontSizeBase: 11
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -69503,8 +69471,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -89.6}
+  m_SizeDelta: {x: 176.67, y: 179.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1546088072
 MonoBehaviour:
@@ -69526,14 +69494,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "<u><b>MODE OF PAYMENT\r</u></b>\nYou can process your payment online through:\r\n\r\n1.
+    PayApp: <link><u><color=yellow>bit.ly/TIPOnlinePayment\r</color></u></link>\n2.
+    DragonPay (If you are a current T.I.P. student, be sure to log in to your\r\nT.I.P.
+    e-mail to access the link): <link><u><color=yellow>https://tip.instructure.com/courses/4925/files?preview=331490\r</color></u></link>\n3.
+    7/11: <link><u><color=yellow>https://oldwww.dragonpay.ph/7-eleven-how-to\r</color></u></link>\n4.
+    BDO online banking and over-the-counter transaction\r\n5. Landbank online banking"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -69561,13 +69527,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -69647,7 +69613,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_SizeDelta: {x: 370, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1547574659
 MonoBehaviour:
@@ -69879,7 +69845,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549488271}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.0000013103}
+  m_LocalPosition: {x: 0, y: 0, z: -0.2}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -69888,8 +69854,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000022888184, y: -11}
-  m_SizeDelta: {x: -10.038, y: -24.6}
+  m_AnchoredPosition: {x: -1.199997, y: -11}
+  m_SizeDelta: {x: -21.8, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1549488273
 MonoBehaviour:
@@ -69939,13 +69905,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -72713,7 +72679,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636707841}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.45}
   m_LocalScale: {x: 0.4873499, y: 0.48735005, z: 0.4873499}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -72722,8 +72688,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_AnchoredPosition: {x: -2.3, y: 44.134735}
+  m_SizeDelta: {x: 369.61, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1636707843
 MonoBehaviour:
@@ -72964,8 +72930,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -41.605}
+  m_SizeDelta: {x: 186.67, y: 83.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1647638801
 MonoBehaviour:
@@ -72987,14 +72953,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: 'HOW DO I GET MY SCHOOL DOCUMENTS
+
+    
+
+    You may email the Registrar
+    of the campus where you are enrolled in through:
+
+    
+
+    reg.qc@tip.edu.ph
+    (T.I.P. QC)
+
+    registrar.manila@tip.edu.ph (T.I.P. Manila)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -73022,13 +72993,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -75767,7 +75738,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_SizeDelta: {x: 370, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1730380868
 MonoBehaviour:
@@ -75789,7 +75760,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What is the purpose of this application?
+  m_text: What is the duration of each modular group?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 13de8f0ec60610443a1830036c38fe49, type: 2}
   m_sharedMaterial: {fileID: 6140857352082419791, guid: 13de8f0ec60610443a1830036c38fe49,
@@ -76027,7 +75998,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731723931}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -76037,7 +76008,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -11}
-  m_SizeDelta: {x: 0, y: -24.6}
+  m_SizeDelta: {x: -18.8, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1731723933
 MonoBehaviour:
@@ -76093,7 +76064,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -76175,8 +76146,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_AnchoredPosition: {x: 0.0012369, y: -19.6}
+  m_SizeDelta: {x: 223.9, y: 87.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1732309501
 MonoBehaviour:
@@ -76733,7 +76704,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746988602}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.23}
   m_LocalScale: {x: 0.4873499, y: 0.48735005, z: 0.4873499}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -76742,8 +76713,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_AnchoredPosition: {x: -0.95, y: 44.134735}
+  m_SizeDelta: {x: 350.12, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1746988604
 MonoBehaviour:
@@ -78040,7 +78011,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1777961130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000026207}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -78049,8 +78020,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000022888184, y: -11}
-  m_SizeDelta: {x: -10.038, y: -24.6}
+  m_AnchoredPosition: {x: -0.6000061, y: -11}
+  m_SizeDelta: {x: -18.2, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1777961132
 MonoBehaviour:
@@ -78072,8 +78043,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What are the total school fees for T.I.P. programs and levels, both for
-    new and current students?
+  m_text: What is the enrollment procedure for students who failed to enroll in the
+    previous semester?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -78101,13 +78072,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -78922,7 +78893,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805892241}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 1.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -78932,8 +78903,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: 5.6, y: 0.0000016481044}
+  m_SizeDelta: {x: 186.67, y: 93.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1805892243
 MonoBehaviour:
@@ -78962,8 +78933,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -79089,7 +79060,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806379921}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -79098,8 +79069,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -11}
-  m_SizeDelta: {x: 0, y: -24.6}
+  m_AnchoredPosition: {x: -0.6000061, y: -11}
+  m_SizeDelta: {x: -26.8, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1806379923
 MonoBehaviour:
@@ -79121,7 +79092,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What is the duration of each modular group?
+  m_text: How can I get my school documents?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -79155,7 +79126,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -80332,8 +80303,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -189.25}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -222}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1824239896
 MonoBehaviour:
@@ -81298,8 +81269,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -991.15015}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -1168}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1839894396
 MonoBehaviour:
@@ -83524,7 +83495,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0012369, y: -17.939999}
-  m_SizeDelta: {x: 223.9, y: 91.12}
+  m_SizeDelta: {x: 223.9, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1900008696
 MonoBehaviour:
@@ -84844,8 +84815,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -167.6}
+  m_SizeDelta: {x: 186.67, y: 335.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1915984383
 MonoBehaviour:
@@ -84867,14 +84838,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "<b><u>ONLINE APPLICATION AND ENROLLMENT PROCESS FOR INCOMING COLLEGE STUDENTS
+    AND TRANSFEREES\r</b></u>\n\r\nSTEP 1 - Completely fill out the online application
+    form through <link><u><color=yellow>https://admission.tip.edu.ph/web/\r</color></u></link>\nSTEP
+    2 - A reference number shall be provided along with an email confirmation of
+    your\r\napplication.\r\nSTEP 3 - Submit the original admission requirements to
+    the Student Recruitment Office.\r\nSTEP 4 - The submitted requirements shall
+    undergo verification.\r\nSTEP 5 - After successful verification, proceed to Guidance
+    Interview.\r\nSTEP 6a - After passing the interview, T.I.P. shall register you
+    in the block section. \r\nSTEP 6b - Transferees who passed the interview and
+    examination shall be evaluated by the Program Chair.\r\nOnce approved, you shall
+    be registered to a section.\r\nSTEP 7 - Pay fees via Tellering Office / Payapp,
+    BDO, or Landbank online banking.\r\nSTEP 8 - Attend the online school orientation.
+    The schedule shall be sent via email."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -84902,13 +84878,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -85879,8 +85855,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -83.6}
+  m_SizeDelta: {x: 186.67, y: 167.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1947328232
 MonoBehaviour:
@@ -85902,14 +85878,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "<u><b>\rENROLLMENT SCHEDULE\r</u></b>\r\nT.I.P. is now accepting applications
+    for new college students, transferees, and returnees for SY 2022-2023.\r\n\r\n<b>Be
+    guided on the following enrollment dates:\r</b>\nEnrollment for Modular Group
+    1 is until August 13, 2022.\r\nEnrollment of courses for Modular Groups 2, 3,
+    and 4 will continue beyond August 13, 2022.\r\n\nFor the admission requirements,
+    visit <link><u><color=yellow>https://tip.edu.ph/be-a-tip-ian/requirements/ </color></u></link>\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -85937,13 +85911,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -88277,8 +88251,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -1209.8501}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -1426}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1995777751
 MonoBehaviour:
@@ -89486,7 +89460,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022811820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000026207}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -89495,8 +89469,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000022888184, y: -11}
-  m_SizeDelta: {x: -10.038, y: -24.6}
+  m_AnchoredPosition: {x: 0, y: -11}
+  m_SizeDelta: {x: -19.4, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022811822
 MonoBehaviour:
@@ -89546,13 +89520,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11
-  m_fontSizeBase: 11
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -90620,7 +90594,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_SizeDelta: {x: 370, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039211564
 MonoBehaviour:
@@ -90642,7 +90616,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What is the duration of each modular group?
+  m_text: What if I encounter problem during online enrollment?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 13de8f0ec60610443a1830036c38fe49, type: 2}
   m_sharedMaterial: {fileID: 6140857352082419791, guid: 13de8f0ec60610443a1830036c38fe49,
@@ -91203,8 +91177,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -845.3501}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -996}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2048463236
 MonoBehaviour:
@@ -91472,7 +91446,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.53953874, y: 44.134735}
-  m_SizeDelta: {x: 321.21, y: 50}
+  m_SizeDelta: {x: 370, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2053363238
 MonoBehaviour:
@@ -91607,8 +91581,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 111.95, y: -143.405}
-  m_SizeDelta: {x: 213.9, y: 286.81}
+  m_AnchoredPosition: {x: 93.335, y: -107.6}
+  m_SizeDelta: {x: 186.67, y: 215.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2055580880
 MonoBehaviour:
@@ -91630,14 +91604,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book. It has survived not only five centuries, but also the leap into
-    electronic typesetting, remaining essentially unchanged. It was popularised in
-    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-    and more recently with desktop publishing software like Aldus PageMaker including
-    versions of Lorem Ipsum.
+  m_text: "<u><b>ENROLLMENT PROCEDURE\r</u></b>\n\\n\u2022 ENROLLMENT FOR MODULAR
+    DELIVERY OF CLASSES\r\nAll the modular courses to be taken for the whole semester
+    should be enrolled simultaneously during the enrollment period subject to compliance
+    with course pre-requisite.\r\n\r\n\\n\u2022 NUMBER OF TIMES ONE HAS TO ENROLL
+    FOR THE MODULAR DELIVERY OF COURSES\r\nOnly once. All the modular courses to
+    be taken within the semester should be enrolled simultaneously during the enrollment
+    period subject to compliance with course pre-requisite.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 93658dff3d0026a4a98c5e3fae9c8c7d, type: 2}
   m_sharedMaterial: {fileID: 991063447512116830, guid: 93658dff3d0026a4a98c5e3fae9c8c7d,
@@ -91665,13 +91638,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 32
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -92125,7 +92098,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066234919}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.0000013571}
+  m_LocalPosition: {x: 0, y: 0, z: 0.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -92135,8 +92108,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000095367, y: -102.845024}
-  m_SizeDelta: {x: 223.9, y: 296.81}
+  m_AnchoredPosition: {x: 0.2, y: -42.600956}
+  m_SizeDelta: {x: 186.67, y: 165.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2066234921
 MonoBehaviour:
@@ -92165,8 +92138,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 5
-    m_Right: 5
+    m_Left: 0
+    m_Right: 0
     m_Top: 0
     m_Bottom: 10
   m_ChildAlignment: 0
@@ -94444,7 +94417,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2118558075}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1.0442, y: 1.0442, z: 1.0442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -94454,7 +94427,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -11}
-  m_SizeDelta: {x: 0, y: -24.6}
+  m_SizeDelta: {x: -18.8, y: -24.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2118558077
 MonoBehaviour:
@@ -94510,7 +94483,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -94990,8 +94963,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.565, y: -262.15002}
-  m_SizeDelta: {x: 237.13, y: 66.9}
+  m_AnchoredPosition: {x: 193.25, y: -308}
+  m_SizeDelta: {x: 366.5, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2136414279
 MonoBehaviour:
