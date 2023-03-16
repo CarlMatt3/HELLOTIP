@@ -1,9 +1,12 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class MapZoom : MonoBehaviour, IScrollHandler
+public class MapZoom : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
     private Vector3 initialScale;
+    private bool isPinching;
+    private float startingPinchDistance;
+    private float previousPinchDistance;
 
     [SerializeField]
     private float zoomSpeed = 0.1f;
@@ -15,14 +18,38 @@ public class MapZoom : MonoBehaviour, IScrollHandler
         initialScale = transform.localScale;
     }
 
-    public void OnScroll(PointerEventData eventData)
+    public void OnPointerDown(PointerEventData eventData)
     {
-        var delta = Vector3.one * (eventData.scrollDelta.y * zoomSpeed);
-        var desiredScale = transform.localScale + delta;
+        if (Input.touchCount == 2)
+        {
+            isPinching = true;
+            startingPinchDistance = Vector2.Distance(Input.GetTouch(0).position, Input.GetTouch(1).position);
+            previousPinchDistance = startingPinchDistance;
+        }
+    }
 
-        desiredScale = ClampDesiredScale(desiredScale);
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        if (Input.touchCount != 2)
+        {
+            isPinching = false;
+        }
+    }
 
-        transform.localScale = desiredScale;
+    private void Update()
+    {
+        if (isPinching)
+        {
+            var currentPinchDistance = Vector2.Distance(Input.GetTouch(0).position, Input.GetTouch(1).position);
+            var delta = Vector3.one * ((currentPinchDistance - previousPinchDistance) * zoomSpeed);
+            var desiredScale = transform.localScale + delta;
+
+            desiredScale = ClampDesiredScale(desiredScale);
+
+            transform.localScale = desiredScale;
+
+            previousPinchDistance = currentPinchDistance;
+        }
     }
 
     private Vector3 ClampDesiredScale(Vector3 desiredScale)
