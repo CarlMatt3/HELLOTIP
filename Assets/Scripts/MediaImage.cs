@@ -11,15 +11,6 @@ public class MediaImage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        canvasImage.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(canvasImage.activeSelf && Input.GetKeyDown(KeyCode.Escape)){
-            HideImage();
-        }
     }
 
     public void ShowImage(){

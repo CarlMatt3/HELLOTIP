@@ -44,7 +44,10 @@ public class SliderMenuAnim : MonoBehaviour
             {
                 bool isOpen = animator.GetBool("show");
                 animator.SetBool("show", !isOpen);
-                bool anyMenuOpen = PanelMenu.GetComponent<Animator>().GetBool("show") || SettingsMenu.GetComponent<Animator>().GetBool("show") || TelevisionMenu.GetComponent<Animator>().GetBool("show");
+                bool anyMenuOpen = 
+                PanelMenu.GetComponent<Animator>().GetBool("show") || 
+                SettingsMenu.GetComponent<Animator>().GetBool("show") || 
+                TelevisionMenu.GetComponent<Animator>().GetBool("show");
                 
                 if (!anyMenuOpen)
                 {
