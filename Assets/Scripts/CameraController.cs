@@ -58,7 +58,7 @@ public class CameraController : MonoBehaviour
                 float prevTouchDeltaMag = (touch1PrevPos - touch2PrevPos).magnitude;
                 float touchDeltaMag = (touch1.position - touch2.position).magnitude;
                 float deltaMagDiff = prevTouchDeltaMag - touchDeltaMag;
-                zoomAmount = Mathf.Clamp(zoomAmount - deltaMagDiff * Time.deltaTime * zoomSpeed, -5.0f, 5.0f);
+                zoomAmount = Mathf.Clamp(zoomAmount - deltaMagDiff * Time.deltaTime * zoomSpeed, 0f, 5.0f);
                 //Apply to camera
                 Camera.main.transform.localPosition = new Vector3(0, 0, zoomAmount);
             }
