@@ -19,6 +19,12 @@ public class TourManager : MonoBehaviour
     {
         mainCamera = Camera.main;
         isCameraMove = true;
+
+            /*
+            Uncap FPS when in mobile
+            */
+        // QualitySettings.vSyncCount = 0;
+        // Application.targetFrameRate = 200;
     }
 
     // Update is called once per frame
