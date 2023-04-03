@@ -16,8 +16,12 @@ public class MapHotspot : MonoBehaviour
         rectTransform = youAreHereImage.GetComponent<RectTransform>();
         
         // Populate the dictionary with site positions
-        sitePositions.Add(tourManager.objSites[0], new Vector2(-240.600006f,27.5f));
-        sitePositions.Add(tourManager.objSites[1], new Vector2(-0.15f, 0.15f));
+        sitePositions.Add(tourManager.objSites[0], new Vector2(-3354f,357f));
+        sitePositions.Add(tourManager.objSites[1], new Vector2(-3354f,357f));
+        sitePositions.Add(tourManager.objSites[2], new Vector2(-3354f,357f));
+        sitePositions.Add(tourManager.objSites[3], new Vector2(-3354f,357f));
+        sitePositions.Add(tourManager.objSites[4], new Vector2(-3354f,357f));
+        sitePositions.Add(tourManager.objSites[5], new Vector2(-2181f,165.9499f));
         sitePositions.Add(tourManager.objSites[2], new Vector2(0.1f, 0f));
         sitePositions.Add(tourManager.objSites[3], new Vector2(0.3f, -0.1f));
         sitePositions.Add(tourManager.objSites[4], new Vector2(0.5f, 0.2f));
