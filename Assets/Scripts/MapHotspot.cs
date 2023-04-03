@@ -1,62 +1,52 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System.Collections.Generic;
 
-public class MapHotspot : MonoBehaviour, IPointerClickHandler
+public class MapHotspot : MonoBehaviour
 {
-    public Image youAreHereImage;
-    public Canvas mapCanvas;
-    public RectTransform hotspotButtonRect;
+    public GameObject youAreHereImage;
+    public Dictionary<GameObject, Vector2> sitePositions = new Dictionary<GameObject, Vector2>();
+    private TourManager tourManager;
+    private RectTransform rectTransform;
 
-    private void Start()
+    void Start()
     {
-        // Hide the "YouAreHere" image when the game starts
-        Hide();
+        tourManager = FindObjectOfType<TourManager>();
+        rectTransform = youAreHereImage.GetComponent<RectTransform>();
+        
+        // Populate the dictionary with site positions
+        sitePositions.Add(tourManager.objSites[0], new Vector2(-240.600006f,27.5f));
+        sitePositions.Add(tourManager.objSites[1], new Vector2(-0.15f, 0.15f));
+        sitePositions.Add(tourManager.objSites[2], new Vector2(0.1f, 0f));
+        sitePositions.Add(tourManager.objSites[3], new Vector2(0.3f, -0.1f));
+        sitePositions.Add(tourManager.objSites[4], new Vector2(0.5f, 0.2f));
+        sitePositions.Add(tourManager.objSites[5], new Vector2(0.8f, 0.1f));
+        // add more sites and positions as necessary
     }
 
-    public void Show(Vector2 position)
+    void Update()
     {
-        // Set the position of the "YouAreHere" image to the position of the hotspot button on the map
-        youAreHereImage.rectTransform.anchoredPosition = position;
-
-        // Set the "YouAreHere" image to be the last sibling of the map canvas to ensure it is on top of other UI elements
-        youAreHereImage.transform.SetAsLastSibling();
-
-        // Show the "YouAreHere" image
-        SetActive(true);
-    }
-
-    public void Hide()
-    {
-        // Hide the "YouAreHere" image
-        SetActive(false);
-    }
-
-    public void SetImage(Sprite sprite)
-    {
-        // Set the image of the "YouAreHere" image
-        youAreHereImage.sprite = sprite;
-    }
-
-    public void SetActive(bool active)
-    {
-        // Enable or disable the "YouAreHere" image
-        youAreHereImage.gameObject.SetActive(active);
-    }
-
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        if (mapCanvas == null) {
-            Debug.LogWarning("Map canvas not assigned in MapHotspot script");
-            return;
+        // Find the active site
+        GameObject activeSite = null;
+        foreach (GameObject site in tourManager.objSites)
+        {
+            if (site.activeSelf)
+            {
+                activeSite = site;
+                break;
+            }
         }
 
-        // Get the position of the hotspot button on the map
-        Vector2 position;
-        RectTransformUtility.ScreenPointToLocalPointInRectangle(mapCanvas.transform as RectTransform, eventData.position, mapCanvas.worldCamera, out position);
-        position += hotspotButtonRect.anchoredPosition;
-
-        // Show the "YouAreHere" image at the position of the hotspot button on the map
-        Show(position);
+        // Set the position of the "You are here" image based on the active site
+        if (activeSite != null)
+        {
+            Vector2 position;
+            if (sitePositions.TryGetValue(activeSite, out position))
+            {
+                rectTransform.anchoredPosition = new Vector2(position.x, position.y);
+                Debug.Log("Active site: " + activeSite);
+            }
+        }
     }
 }
