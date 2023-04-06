@@ -16,7 +16,6 @@ public class MapHotspot : MonoBehaviour
         rectTransform = youAreHereImage.GetComponent<RectTransform>();
         
         // Populate the dictionary with site positions
-        
         //batch1
         sitePositions.Add(tourManager.objSites[0], new Vector2(-3354f,357f));
         sitePositions.Add(tourManager.objSites[1], new Vector2(-3354f,357f));
@@ -217,6 +216,10 @@ public class MapHotspot : MonoBehaviour
         sitePositions.Add(tourManager.objSites[168], new Vector2(519f, 2316f));
         sitePositions.Add(tourManager.objSites[169], new Vector2(519f, 2316f));
         sitePositions.Add(tourManager.objSites[170], new Vector2(519f, 2316f));
+        sitePositions.Add(tourManager.objSites[171], new Vector2(519f, 2316f));
+        sitePositions.Add(tourManager.objSites[172], new Vector2(519f, 2316f));
+        sitePositions.Add(tourManager.objSites[173], new Vector2(519f, 2316f));
+        sitePositions.Add(tourManager.objSites[174], new Vector2(519f, 2316f));
 
         //batch16
         //Building 5
@@ -240,14 +243,35 @@ public class MapHotspot : MonoBehaviour
         sitePositions.Add(tourManager.objSites[189], new Vector2(-1031f, 2315f));
         sitePositions.Add(tourManager.objSites[191], new Vector2(-1031f, 2315f));
         sitePositions.Add(tourManager.objSites[192], new Vector2(-1031f, 2315f));
-        
+        sitePositions.Add(tourManager.objSites[193], new Vector2(-1031f, 2315f));
         sitePositions.Add(tourManager.objSites[194], new Vector2(-396f, 2346f));
 
         sitePositions.Add(tourManager.objSites[195], new Vector2(0.00024414f, 2315f));
 
-        sitePositions.Add(tourManager.objSites[194], new Vector2(225f, 2372f));
+        //tempo fix
+        sitePositions.Add(tourManager.objSites[196], new Vector2(0.00024414f, 2315f));
+        sitePositions.Add(tourManager.objSites[197], new Vector2(0.00024414f, 2315f));
+        sitePositions.Add(tourManager.objSites[198], new Vector2(0.00024414f, 2315f));
+        sitePositions.Add(tourManager.objSites[199], new Vector2(0.00024414f, 2315f));
+        sitePositions.Add(tourManager.objSites[200], new Vector2(0.00024414f, 2315f));
+        // sitePositions.Add(tourManager.objSites[194], new Vector2(225f, 2372f));
 
+
+        //tempo fix
         sitePositions.Add(tourManager.objSites[201], new Vector2(-396f, 2346f));
+        sitePositions.Add(tourManager.objSites[202], new Vector2(-396f, 2346f));
+        sitePositions.Add(tourManager.objSites[203], new Vector2(-396f, 2346f));
+        sitePositions.Add(tourManager.objSites[204], new Vector2(-396f, 2346f));
+        sitePositions.Add(tourManager.objSites[205], new Vector2(-396f, 2346f));
+        sitePositions.Add(tourManager.objSites[206], new Vector2(-396f, 2346f));
+        sitePositions.Add(tourManager.objSites[207], new Vector2(-396f, 2346f));
+        sitePositions.Add(tourManager.objSites[208], new Vector2(-396f, 2346f));
+        sitePositions.Add(tourManager.objSites[209], new Vector2(-396f, 2346f));
+        sitePositions.Add(tourManager.objSites[210], new Vector2(-396f, 2346f));
+        sitePositions.Add(tourManager.objSites[211], new Vector2(-396f, 2346f));
+        sitePositions.Add(tourManager.objSites[212], new Vector2(-396f, 2346f));
+        sitePositions.Add(tourManager.objSites[213], new Vector2(-396f, 2346f));
+        sitePositions.Add(tourManager.objSites[214], new Vector2(-396f, 2346f));
 
         //Batch 17 BLDG6 done
         sitePositions.Add(tourManager.objSites[215], new Vector2(-1506f, 348f));
@@ -341,6 +365,8 @@ public class MapHotspot : MonoBehaviour
         sitePositions.Add(tourManager.objSites[290], new Vector2(1851f, 667f));
         sitePositions.Add(tourManager.objSites[291], new Vector2(1706f, 1840f));
         sitePositions.Add(tourManager.objSites[292], new Vector2(-1584f, 393f));
+
+
 
 
         //sitePositions.Add(tourManager.objSites[n], new Vector2(xposf, yposf));
