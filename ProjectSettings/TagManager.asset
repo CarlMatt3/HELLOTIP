@@ -8,6 +8,8 @@ TagManager:
   - Image
   - Video
   - NextSite
+  - BtnPlay
+  - BtnPause
   layers:
   - Default
   - TransparentFX
