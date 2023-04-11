@@ -83,7 +83,7 @@ MonoBehaviour:
     fitToScreenEnabled: 1
     rotationDegree: 270
     highlightSafeAreaEnabled: 0
-    friendlyName: Asus ROG Phone
+    friendlyName: Google Pixel 3
     networkReachability: 1
     systemLanguage: 10
 --- !u!114 &3
@@ -421,9 +421,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.41570124, y: -0.052056506, z: 0.9642164}
+    m_Target: {x: -0.09154027, y: -0.010088306, z: 4.15965}
     speed: 2
-    m_Value: {x: -0.41570124, y: -0.052056506, z: 0.9642164}
+    m_Value: {x: -0.09154027, y: -0.010088306, z: 4.15965}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -474,9 +474,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 0.8739859
+    m_Target: 1.1934875
     speed: 2
-    m_Value: 0.8739859
+    m_Value: 1.1934875
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -900,7 +900,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 29396
+  m_LastSelectedObjectID: 36070
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -925,7 +925,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 6281
+  controlID: 4372
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -945,8 +945,8 @@ MonoBehaviour:
     y: 0
     width: 377
     height: 543
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -984,9 +984,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9c5a0000
-      m_LastClickedID: 23196
-      m_ExpandedIDs: 28fbffffe255000016560000f65b000040600000046e0000d4720000f47900009084000094860000a0870000d28b0000ac8d0000de900000ec950000889600008a9600008c96000090960000
+      m_SelectedIDs: e68c0000
+      m_LastClickedID: 36070
+      m_ExpandedIDs: 1efbffff7c5e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1078,7 +1078,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets/Images360/batch2 - outside(around annivhall)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -1092,7 +1092,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 34690000
     m_LastClickedID: 26932
-    m_ExpandedIDs: ffffffff00000000489a0000d49c0000d69c0000d89c0000da9c0000dc9c0000de9c0000e09c0000e29c0000e49c0000e69c0000e89c0000ea9c0000ec9c0000ee9c0000f09c0000f29c0000f49c0000f69c0000f89c0000fa9c0000fc9c0000fe9c0000009d0000029d0000049d0000069d0000089d00000a9d00000c9d00000e9d0000
+    m_ExpandedIDs: ffffffff00000000e6a1000074a4000076a4000078a400007aa400007ca400007ea4000080a4000082a4000084a4000086a4000088a400008aa400008ca400008ea4000090a4000092a4000094a4000096a4000098a400009aa400009ca40000a0a40000a2a40000a4a40000a6a40000a8a40000aaa40000aca40000aea40000b0a40000b2a40000b6a40000b8a4000000a50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1117,10 +1117,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 763}
-    m_SelectedIDs: 9c5a0000
+    scrollPos: {x: 0, y: 120}
+    m_SelectedIDs: e68c0000
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000489a0000d49c0000d69c0000d89c0000da9c0000dc9c0000de9c0000e09c0000e29c0000e49c0000e69c0000e89c0000ea9c0000ec9c0000ee9c0000f09c0000f29c0000f49c0000f69c0000f89c0000fa9c0000fc9c0000fe9c0000009d0000029d0000049d0000069d0000089d00000a9d00000c9d00000e9d0000
+    m_ExpandedIDs: ffffffff00000000e6a1000074a4000076a4000078a400007aa400007ca400007ea4000080a4000082a4000084a4000086a4000088a400008aa400008ca400008ea4000090a4000092a4000094a4000096a4000098a400009aa400009ca40000a0a40000a2a40000a4a40000a6a40000a8a40000aaa40000aca40000aea40000b0a40000b2a40000b6a40000b8a4000000a50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1145,8 +1145,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 9c5a0000
-    m_LastClickedInstanceID: 23196
+    m_SelectedInstanceIDs: e68c0000
+    m_LastClickedInstanceID: 36070
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
