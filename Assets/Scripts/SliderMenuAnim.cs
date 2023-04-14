@@ -6,7 +6,6 @@ public class SliderMenuAnim : MonoBehaviour
 {
     public GameObject PanelMenu;
     public GameObject SettingsMenu;
-    public GameObject TelevisionMenu;
 
     public TourManager tourManager; // reference to the TourManager script
 
@@ -28,11 +27,6 @@ public class SliderMenuAnim : MonoBehaviour
         ToggleMenu(SettingsMenu);
     }
 
-    public void ShowHideTelevisionMenu()
-    {
-        ToggleMenu(TelevisionMenu);
-    }
-
     public void ToggleMenu(GameObject menu)
     {
         tourManager.isCameraMove = false;
@@ -44,7 +38,7 @@ public class SliderMenuAnim : MonoBehaviour
             {
                 bool isOpen = animator.GetBool("show");
                 animator.SetBool("show", !isOpen);
-                bool anyMenuOpen = PanelMenu.GetComponent<Animator>().GetBool("show") || SettingsMenu.GetComponent<Animator>().GetBool("show") || TelevisionMenu.GetComponent<Animator>().GetBool("show");
+                bool anyMenuOpen = PanelMenu.GetComponent<Animator>().GetBool("show") || SettingsMenu.GetComponent<Animator>().GetBool("show");
                 
                 if (!anyMenuOpen)
                 {
