@@ -9,7 +9,7 @@ public class MapZoom : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private float previousPinchDistance;
 
     [SerializeField]
-    private float zoomSpeed = 0.001f;
+    private float zoomSpeed = 0.000001f;
     [SerializeField]
     private float maxZoom = 10f;
 
