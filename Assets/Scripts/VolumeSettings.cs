@@ -33,8 +33,8 @@ public class VolumeSettings : MonoBehaviour
 
     void SetMasterVolume(float value)
     {
-        mixer.SetFloat(MIXER_SFX, Mathf.Log10(value) * 20);
-        mixer.SetFloat(MIXER_MUSIC, Mathf.Log10(value) * 20);
+        // mixer.SetFloat(MIXER_SFX, Mathf.Log10(value) * 20);
+        // mixer.SetFloat(MIXER_MUSIC, Mathf.Log10(value) * 20);
         mixer.SetFloat(MIXER_MASTER, Mathf.Log10(value) * 20);
     }
 }
