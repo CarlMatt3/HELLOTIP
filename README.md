@@ -9,6 +9,10 @@ enhances the user experience.
 The features of the application are listed in this section. It also includes the application's
 advantages and disadvantages. The project will be a virtual tour application where the project
 allows the user to wander around the T.I.P. QC campus without going personally. 
+* HUD(Heads-up Display)
+* Information Page:
+* Virtual Environment:
+* Point of Interest Bubbles:
 
 With the use of multiple software applications such as; 
 Unity 3D, VS Code, Adobe Photoshop, and Adobe
